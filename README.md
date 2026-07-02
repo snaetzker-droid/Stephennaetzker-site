@@ -1,17 +1,10 @@
-# StephenNaetzker.com Cleanup Build
+# StephenNaetzker.com Visual Fix Build v1.2.1
 
-This build removes the legacy static-site collision. Cloudflare should deploy the Next.js app only.
+Purpose: remove the old-homepage overlay effect by replacing all legacy class names and eliminating background image layering.
 
-Before uploading/replacing files in GitHub, delete these old root files if present:
-- index.html
-- about.html
-- contact.html
-- essays.html
-- projects.html
-- resume.html
-- styles.css
+Upload/replace repository contents with this build. Do not merge with previous files.
 
-Cloudflare Pages settings:
-- Build command: npm run build
-- Build output directory: out
-- Root directory: /
+Cloudflare Pages can use the existing Next.js settings that just succeeded:
+- Framework preset: Next.js
+- Build command: Cloudflare Next-on-Pages command, or npm run build if using static export
+- Build output directory: blank for Next.js preset, or `out` only if using manual static export
