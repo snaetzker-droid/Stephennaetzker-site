@@ -1,0 +1,1 @@
+export function Journey(){return <section className="feature"><p className="eyebrow">Why I Keep Asking Questions</p><h2>The pursuit of truth requires the courage to follow the evidence, even when it leads somewhere unexpected.</h2></section>}

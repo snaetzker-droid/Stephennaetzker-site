@@ -1,0 +1,3 @@
+import { Navigation } from '../../components/layout/Navigation';
+import { Footer } from '../../components/layout/Footer';
+export default function Essays(){return <><Navigation/><main className="page"><h1>Essays</h1><article className="panel"><p className="eyebrow">Featured Essay</p><h2>The Courage to Follow the Evidence</h2><p>The discipline of changing your mind with honesty, curiosity, and courage.</p></article><article className="panel"><p className="eyebrow">Coming Soon</p><h2>The Day I Lost My Faith</h2><p>A personal reflection on study, grief, meaning, and rebuilding life after certainty.</p></article></main><Footer/></>}
