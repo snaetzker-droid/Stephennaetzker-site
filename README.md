@@ -1,15 +1,13 @@
-# StephenNaetzker.com Homepage Polish v1.2.3
+# StephenNaetzker.com v1.2.4 Homepage Refinement
 
-Build purpose: restore the approved cinematic Chloe homepage after v1.2.2 regressed to the boxed text-card layout.
+Corrective homepage polish build based on v1.2.3.
 
-## Included fixes
-- Restores the approved headline: “Wonder Begins With Looking Up.”
-- Restores Chloe as the emotional hero image.
-- Moves from boxed centered card to full-width cinematic hero composition.
-- Adds gold Polaris compass styling.
-- Keeps stable Next.js static export and Cloudflare Pages compatibility.
-- Keeps all content pages: About, Essays, Projects, Resume, Contact.
-- No stray root-level build blockers: no root Shell.tsx, page (2).tsx, page (4).tsx, or page (5).tsx.
+## Changes
+- Enlarges the Chloe hero image and lets it bleed toward the right edge.
+- Softens the rectangular image boundary with masking and cinematic blending.
+- Keeps the approved Wonder Begins With Looking Up headline.
+- Preserves single navigation, Cloudflare compatibility, and clean Next.js structure.
+- No stray root files included.
 
-## Upload instructions
-Upload the **contents** of this extracted folder to the GitHub repository root. Do not upload the ZIP itself.
+## Upload
+Extract the ZIP and upload the contents of the folder to the GitHub repository root.

@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="sn-home" data-build="v1.2.3-homepage-polish">
+      <main className="sn-home" data-build="v1.2.4-homepage-refinement">
         <section className="sn-hero" aria-label="Following the evidence">
           <div className="sn-hero-bg" aria-hidden="true" />
           <div className="sn-starfield sn-starfield-one" aria-hidden="true" />
