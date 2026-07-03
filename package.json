@@ -1,6 +1,6 @@
 {
-  "name": "stephennaetzker-site-visual-fix",
-  "version": "1.2.1",
+  "name": "stephennaetzker-site-homepage-polish",
+  "version": "1.2.2",
   "private": true,
   "scripts": {
     "dev": "next dev",

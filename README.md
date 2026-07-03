@@ -1,10 +1,9 @@
-# StephenNaetzker.com Visual Fix Build v1.2.1
+# StephenNaetzker.com Homepage Polish v1.2.2
 
-Purpose: remove the old-homepage overlay effect by replacing all legacy class names and eliminating background image layering.
+Homepage polish build: keeps the clean Next.js-only structure, preserves the cinematic design, and adds refined hero motion, brighter evidence headline treatment, Polaris glow, animated navigation underline, starfield depth, and scroll cue polish.
 
-Upload/replace repository contents with this build. Do not merge with previous files.
-
-Cloudflare Pages can use the existing Next.js settings that just succeeded:
+Cloudflare settings:
 - Framework preset: Next.js
-- Build command: Cloudflare Next-on-Pages command, or npm run build if using static export
-- Build output directory: blank for Next.js preset, or `out` only if using manual static export
+- Build command: npm run build
+- Build output directory: out
+- Compatibility flag: nodejs_compat
