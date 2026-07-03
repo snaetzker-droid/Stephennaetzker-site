@@ -1,10 +1,11 @@
 import Link from 'next/link';
+import type { ReactNode } from 'react';
 
 export function Header() {
   return (
     <header className="sn-header">
       <Link className="sn-brand" href="/" aria-label="Stephen Naetzker home">
-        <span className="sn-mark">✦</span>
+        <span className="sn-mark" aria-hidden="true"><i /></span>
         <span>Stephen Naetzker</span>
       </Link>
       <nav className="sn-nav" aria-label="Primary navigation">
@@ -24,12 +25,12 @@ export function Footer() {
     <footer className="sn-footer">
       <strong>Following the Evidence</strong>
       <span>© 2026 Stephen Naetzker</span>
-      <span className="sn-build">v1.2.1 visual fix</span>
+      <span className="sn-build">v1.2.3 homepage polish</span>
     </footer>
   );
 }
 
-export function PageShell({ title, children }: { title: string; children: React.ReactNode }) {
+export function PageShell({ title, children }: { title: string; children: ReactNode }) {
   return (
     <>
       <Header />
