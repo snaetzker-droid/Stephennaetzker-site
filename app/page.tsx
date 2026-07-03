@@ -9,7 +9,7 @@ export default function Home() {
         <div className="sn-hot-brand" aria-hidden="true" />
         <nav className="sn-hot-nav" aria-label="Primary navigation">
           <Link href="/">Home</Link>
-          <Link href="/essays">Essays</Link>
+          <Link href="/essays/the-courage-to-follow-the-evidence">Essays</Link>
           <Link href="/about">About</Link>
           <Link href="/projects">Projects</Link>
           <Link href="/resume">Resume</Link>
