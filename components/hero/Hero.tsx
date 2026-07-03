@@ -33,7 +33,7 @@ export function Hero() {
       </div>
 
       <figure className="hero-art">
-        <img src="/hero.png" alt="" />
+        <img src="/hero.png.png" alt="" />
       </figure>
     </section>
   );
