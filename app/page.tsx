@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="sn-canonical-home" data-build="v1.2.7-homepage-layout-polish">
+    <main className="sn-canonical-home" data-build="v1.2.8-essay-publish">
       <section className="sn-canonical-hero" aria-label="Following the evidence">
         <img className="sn-canonical-bg" src="/canonical-hero.png" alt="" />
 
@@ -17,8 +17,8 @@ export default function Home() {
         </nav>
 
         <div className="sn-canonical-actions" aria-label="Homepage actions">
-          <Link className="sn-hot-button sn-hot-primary" href="/essays" aria-label="Begin the journey" />
-          <Link className="sn-hot-button sn-hot-secondary" href="/essays" aria-label="Explore essays" />
+          <Link className="sn-hot-button sn-hot-primary" href="/essays/the-courage-to-follow-the-evidence" aria-label="Begin the journey" />
+          <Link className="sn-hot-button sn-hot-secondary" href="/essays/the-courage-to-follow-the-evidence" aria-label="Explore essays" />
         </div>
 
         <div className="sn-canonical-text">

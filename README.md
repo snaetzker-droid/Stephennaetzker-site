@@ -1,13 +1,14 @@
-# StephenNaetzker.com v1.2.7 — Homepage Layout Polish
+# StephenNaetzker.com v1.2.8 — Essay Publish
 
-Code/CSS-only patch. No new artwork was generated.
+This release publishes Essay #1: **The Courage to Follow the Evidence**.
 
 Changes:
-- Keeps the approved canonical Chloe hero artwork locked.
-- Forces homepage hero to fill the first viewport (`100vh` / `100svh`).
-- Removes excess blank/white space by constraining the homepage viewport and hiding overflow on desktop.
-- Slightly scales and shifts the approved hero image to better match the canonical mockup.
-- Preserves navigation, gold Polaris identity, typography, and CTA alignment.
-- Leaves interior pages unchanged.
+- Adds `/essays/the-courage-to-follow-the-evidence`.
+- Adds `/essays` index page featuring Essay #1.
+- Updates both homepage action links:
+  - Begin the Journey → `/essays/the-courage-to-follow-the-evidence`
+  - Explore Essays → `/essays/the-courage-to-follow-the-evidence`
+- Preserves the locked canonical Chloe homepage artwork and layout.
+- Adds cinematic essay styling, byline, reading time, and blockquotes.
 
 Upload the contents of this folder to the GitHub repository root.
