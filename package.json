@@ -1,6 +1,6 @@
 {
-  "name": "stephennaetzker-site-homepage-polish",
-  "version": "1.2.3",
+  "name": "stephennaetzker-site-canonical-hero",
+  "version": "1.2.6",
   "private": true,
   "scripts": {
     "dev": "next dev",

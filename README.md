@@ -1,13 +1,10 @@
-# StephenNaetzker.com v1.2.4 Homepage Refinement
+# StephenNaetzker.com v1.2.6 Canonical Hero
 
-Corrective homepage polish build based on v1.2.3.
+This build uses the approved full-screen Chloe cinematic homepage image as the canonical hero background.
 
-## Changes
-- Enlarges the Chloe hero image and lets it bleed toward the right edge.
-- Softens the rectangular image boundary with masking and cinematic blending.
-- Keeps the approved Wonder Begins With Looking Up headline.
-- Preserves single navigation, Cloudflare compatibility, and clean Next.js structure.
-- No stray root files included.
+Upload the extracted folder contents to the GitHub repository root.
 
-## Upload
-Extract the ZIP and upload the contents of the folder to the GitHub repository root.
+Cloudflare Pages:
+- Build command: npm run build
+- Build output: out
+- Compatibility flag: nodejs_compat
