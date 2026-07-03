@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="sn-canonical-home" data-build="v1.2.6-canonical-hero">
+    <main className="sn-canonical-home" data-build="v1.2.7-homepage-layout-polish">
       <section className="sn-canonical-hero" aria-label="Following the evidence">
         <img className="sn-canonical-bg" src="/canonical-hero.png" alt="" />
 

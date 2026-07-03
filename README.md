@@ -1,10 +1,13 @@
-# StephenNaetzker.com v1.2.6 Canonical Hero
+# StephenNaetzker.com v1.2.7 — Homepage Layout Polish
 
-This build uses the approved full-screen Chloe cinematic homepage image as the canonical hero background.
+Code/CSS-only patch. No new artwork was generated.
 
-Upload the extracted folder contents to the GitHub repository root.
+Changes:
+- Keeps the approved canonical Chloe hero artwork locked.
+- Forces homepage hero to fill the first viewport (`100vh` / `100svh`).
+- Removes excess blank/white space by constraining the homepage viewport and hiding overflow on desktop.
+- Slightly scales and shifts the approved hero image to better match the canonical mockup.
+- Preserves navigation, gold Polaris identity, typography, and CTA alignment.
+- Leaves interior pages unchanged.
 
-Cloudflare Pages:
-- Build command: npm run build
-- Build output: out
-- Compatibility flag: nodejs_compat
+Upload the contents of this folder to the GitHub repository root.

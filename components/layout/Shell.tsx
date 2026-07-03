@@ -25,7 +25,7 @@ export function Footer() {
     <footer className="sn-footer">
       <strong>Following the Evidence</strong>
       <span>© 2026 Stephen Naetzker</span>
-      <span className="sn-build">v1.2.6 canonical hero</span>
+      <span className="sn-build">v1.2.7 homepage layout polish</span>
     </footer>
   );
 }
