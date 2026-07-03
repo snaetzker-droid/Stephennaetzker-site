@@ -1,9 +1,12 @@
-# StephenNaetzker.com Homepage Polish v1.2.2
+# StephenNaetzker.com — Homepage Restoration v1.2.3
 
-Homepage polish build: keeps the clean Next.js-only structure, preserves the cinematic design, and adds refined hero motion, brighter evidence headline treatment, Polaris glow, animated navigation underline, starfield depth, and scroll cue polish.
+Purpose: restore the approved full-width cinematic Chloe homepage while preserving the clean Next.js/Cloudflare build pipeline.
 
-Cloudflare settings:
-- Framework preset: Next.js
-- Build command: npm run build
-- Build output directory: out
-- Compatibility flag: nodejs_compat
+Upload the extracted contents of this folder to the existing GitHub repository root.
+
+Confirmed clean:
+- No root-level Shell.tsx
+- No root-level page (2).tsx / page (4).tsx / page (5).tsx
+- Valid next.config.mjs
+- Static export enabled
+- Homepage restored to full-width cinematic composition
