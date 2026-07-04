@@ -16,3 +16,71 @@
 /* v1.2.8 ESSAY PUBLISH */
 .sn-essay-page,.sn-essay-index{min-height:100vh;background:radial-gradient(circle at 72% 14%,rgba(55,95,178,.28),transparent 34%),radial-gradient(circle at 18% 82%,rgba(216,170,82,.10),transparent 28%),linear-gradient(140deg,#030712 0%,#07101f 48%,#0b1222 100%);color:var(--text);padding:7.25rem 6vw 5rem;position:relative;overflow:hidden}.sn-essay-page::before,.sn-essay-index::before{content:"";position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(circle,rgba(255,255,255,.45) 0 1px,transparent 1.2px);background-size:88px 88px;opacity:.08}.sn-essay-nav{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:2rem;padding:1.25rem 3.8vw;border-bottom:1px solid rgba(216,170,82,.20);background:linear-gradient(180deg,rgba(3,7,18,.90),rgba(3,7,18,.62));backdrop-filter:blur(18px)}.sn-essay-brand{display:flex;align-items:center;gap:.85rem;text-transform:uppercase;letter-spacing:.22rem;font:800 .86rem Arial,sans-serif;color:var(--text)}.sn-essay-mark{display:grid;place-items:center;width:2.35rem;height:2.35rem;border:2px solid var(--gold);border-radius:50%;box-shadow:0 0 28px rgba(216,170,82,.38)}.sn-essay-mark i{width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-bottom:17px solid var(--gold2);transform:rotate(42deg);filter:drop-shadow(0 0 9px rgba(245,217,138,.78))}.sn-essay-links{display:flex;gap:1.5rem;flex-wrap:wrap;font:800 .68rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.13rem;color:rgba(255,255,255,.88)}.sn-essay-links a:hover{color:var(--gold2)}.sn-essay-article{position:relative;z-index:2;max-width:850px;margin:0 auto;padding:3.2rem clamp(1.35rem,3vw,3rem);border:1px solid rgba(216,170,82,.22);background:linear-gradient(180deg,rgba(8,14,28,.80),rgba(4,9,19,.72));box-shadow:0 34px 90px rgba(0,0,0,.42);backdrop-filter:blur(10px)}.sn-essay-kicker{margin:0 0 1rem;color:var(--gold2);font:800 .74rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.22rem}.sn-essay-article h1{font-size:clamp(2.45rem,6vw,5.2rem);line-height:.95;margin:.1rem 0 1rem;text-transform:uppercase;letter-spacing:.035em;color:#fff2da;text-shadow:0 12px 38px rgba(0,0,0,.55)}.sn-essay-meta{font:700 .82rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.14rem;color:rgba(245,217,138,.86);margin:0 0 2.6rem}.sn-essay-body{font-size:clamp(1.08rem,1.35vw,1.24rem);line-height:1.85;color:#eadfcd}.sn-essay-body p{margin:0 0 1.35rem}.sn-essay-body strong{color:#fff4df;font-weight:800}.sn-essay-body em{color:#fff0cf}.sn-essay-body blockquote{margin:2rem 0;padding:1.1rem 1.25rem 1.1rem 1.35rem;border-left:3px solid var(--gold2);background:rgba(216,170,82,.08);color:#fff3dc;font-size:1.08em;line-height:1.65}.sn-essay-body blockquote p{margin:0}.sn-essay-body hr{margin:2.7rem 0;border:0;border-top:1px solid rgba(216,170,82,.32)}.sn-final-quote{border-left:0!important;text-align:center;background:radial-gradient(circle at 50% 50%,rgba(216,170,82,.14),rgba(216,170,82,.04))!important;padding:1.7rem!important;font-size:1.22em!important;font-weight:800;color:#fff7e8!important}.sn-essay-footer-actions{display:flex;gap:1rem;flex-wrap:wrap;margin-top:2.5rem}.sn-essay-footer-actions a,.sn-featured-essay{border:1px solid rgba(216,170,82,.32);background:rgba(216,170,82,.10);padding:.9rem 1.1rem;font:800 .76rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.12rem;color:#fff0cf}.sn-essay-footer-actions a:hover,.sn-featured-essay:hover{background:rgba(216,170,82,.17);border-color:rgba(245,217,138,.62)}.sn-essay-index-card{position:relative;z-index:2;max-width:900px;margin:0 auto;padding:3.2rem clamp(1.35rem,3vw,3rem);border:1px solid rgba(216,170,82,.22);background:linear-gradient(180deg,rgba(8,14,28,.82),rgba(4,9,19,.72));box-shadow:0 34px 90px rgba(0,0,0,.42)}.sn-essay-index-card h1{font-size:clamp(2.6rem,6vw,5rem);line-height:1;margin:.2rem 0 1rem;text-transform:uppercase;color:#fff2da}.sn-essay-index-card>p:not(.sn-essay-kicker){font-size:1.15rem;line-height:1.7;color:#d9cdbc;max-width:720px}.sn-featured-essay{display:grid;gap:.45rem;margin-top:2rem;padding:1.35rem;text-transform:none;font-family:Georgia,'Times New Roman',serif;letter-spacing:normal}.sn-featured-essay span{font:800 .72rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.18rem;color:var(--gold2)}.sn-featured-essay strong{font-size:clamp(1.5rem,3vw,2.4rem);line-height:1.05;color:#fff2da}.sn-featured-essay em{font-style:normal;color:#d6c9b7}
 @media(max-width:760px){.sn-essay-page,.sn-essay-index{padding:6.7rem 4.5vw 3rem}.sn-essay-nav{align-items:flex-start;gap:.75rem;flex-direction:column;padding:1rem 4.5vw}.sn-essay-links{gap:.85rem;font-size:.58rem}.sn-essay-brand{font-size:.72rem}.sn-essay-article,.sn-essay-index-card{padding:2rem 1.2rem}.sn-essay-body{font-size:1.03rem;line-height:1.75}}
+
+
+/* v1.2.13 HOTFIX: large transparent click regions over the two visible hero buttons.
+   Visuals unchanged. This bypasses any painted/background button interaction issue. */
+.sn-button-hotspots{
+  position:absolute!important;
+  inset:0!important;
+  z-index:2147483647!important;
+  pointer-events:none!important;
+}
+.sn-click-hotspot{
+  position:absolute!important;
+  display:block!important;
+  pointer-events:auto!important;
+  cursor:pointer!important;
+  background:transparent!important;
+  border:0!important;
+  box-shadow:none!important;
+  text-decoration:none!important;
+  color:transparent!important;
+  overflow:hidden!important;
+  -webkit-tap-highlight-color:rgba(245,217,138,.22);
+}
+.sn-click-hotspot span{
+  position:absolute!important;
+  width:1px!important;
+  height:1px!important;
+  padding:0!important;
+  margin:-1px!important;
+  overflow:hidden!important;
+  clip:rect(0,0,0,0)!important;
+  white-space:nowrap!important;
+  border:0!important;
+}
+.sn-click-hotspot-primary{
+  left:6.7vw!important;
+  top:73.2vh!important;
+  width:20.8vw!important;
+  min-width:250px!important;
+  height:8.8vh!important;
+  min-height:62px!important;
+}
+.sn-click-hotspot-secondary{
+  left:28.3vw!important;
+  top:73.2vh!important;
+  width:18.7vw!important;
+  min-width:225px!important;
+  height:8.8vh!important;
+  min-height:62px!important;
+}
+.sn-canonical-bg,
+.sn-canonical-hero::before,
+.sn-canonical-hero::after,
+.sn-canonical-text,
+.sn-hot-brand{
+  pointer-events:none!important;
+}
+@media(max-height:820px) and (min-width:901px){
+  .sn-click-hotspot-primary,.sn-click-hotspot-secondary{top:74.2vh!important;height:9.2vh!important;}
+}
+@media(max-width:900px){
+  .sn-click-hotspot-primary{left:5.5vw!important;top:auto!important;bottom:3.3vh!important;width:44vw!important;min-width:130px!important;height:60px!important;}
+  .sn-click-hotspot-secondary{left:51vw!important;top:auto!important;bottom:3.3vh!important;width:43vw!important;min-width:130px!important;height:60px!important;}
+}
+@media(max-width:560px){
+  .sn-click-hotspot-primary{left:14vw!important;width:72vw!important;bottom:3.5vh!important;}
+  .sn-click-hotspot-secondary{display:none!important;}
+}
