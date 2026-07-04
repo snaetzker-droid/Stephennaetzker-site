@@ -1,9 +1,7 @@
-StephenNaetzker.com v1.2.13 — Homepage Button Hotfix
+# StephenNaetzker.com v1.2.19 — Link Children Fix
 
-Purpose:
-- Preserve the homepage visually.
-- Add large transparent clickable regions over the two visible hero buttons.
-- Both regions navigate to /essays/the-courage-to-follow-the-evidence.
-
-Deploy:
-- Upload the contents of this folder to the GitHub repository root.
+Patch scope:
+- Replaces self-closing homepage CTA Link components with Link elements containing accessible text children.
+- Keeps the button label text visually hidden because the approved canonical hero image already contains the visible button artwork/text.
+- Preserves the canonical homepage artwork, layout, and essay integration.
+- Keeps both homepage CTAs pointed at `/essays/the-courage-to-follow-the-evidence`.

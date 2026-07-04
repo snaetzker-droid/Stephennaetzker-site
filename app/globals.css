@@ -18,28 +18,9 @@
 @media(max-width:760px){.sn-essay-page,.sn-essay-index{padding:6.7rem 4.5vw 3rem}.sn-essay-nav{align-items:flex-start;gap:.75rem;flex-direction:column;padding:1rem 4.5vw}.sn-essay-links{gap:.85rem;font-size:.58rem}.sn-essay-brand{font-size:.72rem}.sn-essay-article,.sn-essay-index-card{padding:2rem 1.2rem}.sn-essay-body{font-size:1.03rem;line-height:1.75}}
 
 
-/* v1.2.13 HOTFIX: large transparent click regions over the two visible hero buttons.
-   Visuals unchanged. This bypasses any painted/background button interaction issue. */
-.sn-button-hotspots{
-  position:absolute!important;
-  inset:0!important;
-  z-index:2147483647!important;
-  pointer-events:none!important;
-}
-.sn-click-hotspot{
-  position:absolute!important;
-  display:block!important;
-  pointer-events:auto!important;
-  cursor:pointer!important;
-  background:transparent!important;
-  border:0!important;
-  box-shadow:none!important;
-  text-decoration:none!important;
-  color:transparent!important;
-  overflow:hidden!important;
-  -webkit-tap-highlight-color:rgba(245,217,138,.22);
-}
-.sn-click-hotspot span{
+/* v1.2.19 VERIFIED FIX: actual visible button anchors include children and receive clicks.
+   Keeps labels visually hidden because button artwork/text is part of the locked hero image. */
+.sn-hot-button-label{
   position:absolute!important;
   width:1px!important;
   height:1px!important;
@@ -50,37 +31,18 @@
   white-space:nowrap!important;
   border:0!important;
 }
-.sn-click-hotspot-primary{
-  left:6.7vw!important;
-  top:73.2vh!important;
-  width:20.8vw!important;
-  min-width:250px!important;
-  height:8.8vh!important;
-  min-height:62px!important;
+
+/* v1.2.18 VERIFIED FIX: actual visible button hitboxes receive clicks.
+   Removes the full-hero overlay workaround and restores pointer events to the existing CTA layer. */
+.sn-canonical-actions{
+  pointer-events:auto!important;
+  z-index:2147483646!important;
 }
-.sn-click-hotspot-secondary{
-  left:28.3vw!important;
-  top:73.2vh!important;
-  width:18.7vw!important;
-  min-width:225px!important;
-  height:8.8vh!important;
-  min-height:62px!important;
+.sn-hot-button{
+  pointer-events:auto!important;
+  cursor:pointer!important;
 }
-.sn-canonical-bg,
-.sn-canonical-hero::before,
-.sn-canonical-hero::after,
-.sn-canonical-text,
-.sn-hot-brand{
-  pointer-events:none!important;
-}
-@media(max-height:820px) and (min-width:901px){
-  .sn-click-hotspot-primary,.sn-click-hotspot-secondary{top:74.2vh!important;height:9.2vh!important;}
-}
-@media(max-width:900px){
-  .sn-click-hotspot-primary{left:5.5vw!important;top:auto!important;bottom:3.3vh!important;width:44vw!important;min-width:130px!important;height:60px!important;}
-  .sn-click-hotspot-secondary{left:51vw!important;top:auto!important;bottom:3.3vh!important;width:43vw!important;min-width:130px!important;height:60px!important;}
-}
-@media(max-width:560px){
-  .sn-click-hotspot-primary{left:14vw!important;width:72vw!important;bottom:3.5vh!important;}
-  .sn-click-hotspot-secondary{display:none!important;}
+.sn-hot-nav{
+  z-index:2147483647!important;
+  pointer-events:auto!important;
 }
