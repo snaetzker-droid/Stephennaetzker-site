@@ -66,4 +66,18 @@
 .sn-hot-button {
   position: relative !important;
   z-index: 1000000 !important;
+}/* v1.2.20 live fix: move CTA hitboxes onto the visible buttons */
+.sn-canonical-actions {
+  top: auto !important;
+  bottom: 4.7vh !important;
+  left: 7.18vw !important;
+  display: flex !important;
+  gap: 1.12vw !important;
+  pointer-events: auto !important;
+  z-index: 2147483646 !important;
+}
+
+.sn-hot-button {
+  pointer-events: auto !important;
+  cursor: pointer !important;
 }
