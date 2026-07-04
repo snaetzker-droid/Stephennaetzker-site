@@ -80,4 +80,25 @@
 .sn-hot-button {
   pointer-events: auto !important;
   cursor: pointer !important;
+}@media (max-width: 560px) {
+  .sn-hot-nav {
+    display: none !important;
+  }
+
+  .sn-canonical-bg {
+    object-position: 66% center !important;
+    transform: scale(1.02) translateX(-6vw) !important;
+  }
+
+  .sn-canonical-actions {
+    left: 4vw !important;
+    right: auto !important;
+    bottom: 9vh !important;
+    width: 44vw !important;
+  }
+
+  .sn-hot-primary {
+    width: 44vw !important;
+    min-width: 0 !important;
+  }
 }
