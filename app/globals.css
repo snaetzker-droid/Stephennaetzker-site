@@ -69,7 +69,7 @@
 }/* v1.2.20 live fix: move CTA hitboxes onto the visible buttons */
 .sn-canonical-actions {
   top: auto !important;
-  bottom: 2,4vh !important;
+  bottom: 2.4vh !important;
   left: 5.9vw !important;
   display: flex !important;
   gap: 1.12vw !important;
