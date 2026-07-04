@@ -45,4 +45,25 @@
 .sn-hot-nav{
   z-index:2147483647!important;
   pointer-events:auto!important;
+}.sn-canonical-bg,
+.sn-canonical-text,
+.sn-hot-brand {
+  pointer-events: none !important;
+}
+
+.sn-canonical-actions,
+.sn-canonical-actions *,
+.sn-hot-button,
+.sn-hot-button-label {
+  pointer-events: auto !important;
+}
+
+.sn-canonical-actions {
+  position: absolute !important;
+  z-index: 999999 !important;
+}
+
+.sn-hot-button {
+  position: relative !important;
+  z-index: 1000000 !important;
 }
