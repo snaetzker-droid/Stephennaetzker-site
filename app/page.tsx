@@ -2,9 +2,10 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="sn-canonical-home" data-build="v1.2.24-homepage-stability">
+    <main className="sn-canonical-home" data-build="v1.2.25-mobile-hero-fit">
       <section className="sn-canonical-hero" aria-label="Following the evidence">
-        <img className="sn-canonical-bg" src="/canonical-hero.png" alt="" />
+        <img className="sn-canonical-bg sn-desktop-hero-img" src="/canonical-hero.png" alt="" />
+        <img className="sn-canonical-bg sn-mobile-hero-img" src="/chloe-hero.png" alt="" />
 
         <div className="sn-hot-brand" aria-hidden="true" />
         <nav className="sn-hot-nav" aria-label="Primary navigation">
