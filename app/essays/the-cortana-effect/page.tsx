@@ -101,7 +101,7 @@ export default function TheCortanaEffect() {
           <p>I still care deeply about being right.</p>
           <p>But over time I realized that being right is not always the same as discovering what is true.</p>
           <p>Those are not always the same thing.</p>
-          <p>Somewhere along the way, my goal quietly changed.</p>
+          <p>Somewhere along the way, my natural pursuit quietly changed.</p>
           <p>Instead of asking, "How do I win this argument?" I began asking, "How do we arrive at the truth together?"</p>
           <p>That single shift changed far more than the quality of my arguments.</p>
           <p>It changed the way I related to other people.</p>
