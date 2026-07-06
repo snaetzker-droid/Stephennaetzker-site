@@ -1,15 +1,13 @@
-# StephenNaetzker.com v1.2.22 — GitHub Source Hotfix
+StephenNaetzker.com v1.2.23 VERIFIED STATIC SOURCE FIX
 
-Use this package only for the GitHub → Cloudflare Pages workflow.
+For Stephen's workflow:
+1. Extract this ZIP.
+2. Open the extracted folder.
+3. Upload the TOP-LEVEL CONTENTS to the GitHub repo root.
+4. GitHub repo root should show package.json, scripts/, src/, public/.
+5. Cloudflare settings should remain:
+   Build command: npm run build
+   Build output directory: /out
+   Root directory: /
 
-Upload the CONTENTS of this folder to the root of the GitHub repository, not the parent folder itself.
-
-Expected repo root after upload:
-- app/
-- components/
-- public/
-- package.json
-- next.config.mjs
-- tsconfig.json
-
-Do not upload an `out/` folder for this workflow. Cloudflare should build from source.
+This version removes Next.js as a build dependency and generates the static site directly, avoiding npm/Next build failures.
