@@ -1,6 +1,6 @@
 {
-  "name": "stephennaetzker-site-essay-publish",
-  "version": "1.2.8",
+  "name": "stephennaetzker-site",
+  "version": "1.2.22",
   "private": true,
   "scripts": {
     "dev": "next dev",

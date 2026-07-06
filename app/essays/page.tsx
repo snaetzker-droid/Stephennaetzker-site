@@ -15,7 +15,7 @@ export default function Essays() {
         </Link>
         <div className="sn-essay-links">
           <Link href="/">Home</Link>
-          <Link href="/essays/the-cortana-effect">Essays</Link>
+          <Link href="/essays">Essays</Link>
           <Link href="/about">About</Link>
           <Link href="/projects">Projects</Link>
           <Link href="/resume">Resume</Link>
@@ -27,10 +27,17 @@ export default function Essays() {
         <p className="sn-essay-kicker">Essays</p>
         <h1>Writing that follows the evidence.</h1>
         <p>Reflections on philosophy, faith, education, service, artificial intelligence, and the responsibility to change when the evidence demands it.</p>
-        <Link className="sn-featured-essay" href="/essays/the-courage-to-follow-the-evidence">
-          <span>Featured Essays</span>
+
+        <Link className="sn-featured-essay" href="/essays/the-cortana-effect">
+          <span>Featured Essay</span>
           <strong>The Cortana Effect</strong>
           <em>15 min read · Memoir · AI · Philosophy</em>
+        </Link>
+
+        <Link className="sn-featured-essay" href="/essays/the-courage-to-follow-the-evidence">
+          <span>Essay</span>
+          <strong>The Courage to Follow the Evidence</strong>
+          <em>6 min read · Philosophy · Truth Seeking</em>
         </Link>
       </section>
     </main>

@@ -46,3 +46,6 @@
   z-index:2147483647!important;
   pointer-events:auto!important;
 }
+
+/* v1.2.21 Essay index multi-card spacing */
+.sn-featured-essay + .sn-featured-essay{margin-top:1rem}
