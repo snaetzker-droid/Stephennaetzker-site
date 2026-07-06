@@ -1,13 +1,37 @@
-StephenNaetzker.com v1.2.23 VERIFIED STATIC SOURCE FIX
+# StephenNaetzker.com v1.2.24 — Homepage Stability Release
 
-For Stephen's workflow:
-1. Extract this ZIP.
-2. Open the extracted folder.
-3. Upload the TOP-LEVEL CONTENTS to the GitHub repo root.
-4. GitHub repo root should show package.json, scripts/, src/, public/.
-5. Cloudflare settings should remain:
-   Build command: npm run build
-   Build output directory: /out
-   Root directory: /
+Upload the top-level contents of this extracted folder to the root of the GitHub repository.
 
-This version removes Next.js as a build dependency and generates the static site directly, avoiding npm/Next build failures.
+Expected GitHub root after upload:
+
+- app/
+- components/
+- public/
+- package.json
+- package-lock.json
+- next.config.mjs
+- tsconfig.json
+
+Do not upload the parent wrapper folder itself.
+
+## Verified
+
+- npm ci: passed
+- npm run build: passed
+- Static export includes /essays/the-cortana-effect
+
+## Scope
+
+Changed only:
+
+- app/page.tsx
+- app/globals.css
+- app/essays/the-cortana-effect/page.tsx
+
+## Fixes
+
+- Homepage buttons now use real visible Next.js Link buttons.
+- Homepage mobile layout is responsive.
+- Cinematic hero preserved.
+- The Cortana Effect preserved.
+- "goal" updated to "natural pursuit."
