@@ -1,0 +1,38 @@
+
+> stephennaetzker-site-essay-publish@1.2.8 build
+> next build
+
+   ▲ Next.js 15.3.4
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 4.0s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/11) ...
+   Generating static pages (2/11) 
+   Generating static pages (5/11) 
+   Generating static pages (8/11) 
+ ✓ Generating static pages (11/11)
+   Finalizing page optimization ...
+   Collecting build traces ...
+   Exporting (0/3) ...
+ ✓ Exporting (3/3)
+
+Route (app)                                        Size  First Load JS
+┌ ○ /                                             194 B         105 kB
+├ ○ /_not-found                                   977 B         102 kB
+├ ○ /about                                        194 B         105 kB
+├ ○ /contact                                      194 B         105 kB
+├ ○ /essays                                       194 B         105 kB
+├ ○ /essays/the-cortana-effect                    194 B         105 kB
+├ ○ /essays/the-courage-to-follow-the-evidence    194 B         105 kB
+├ ○ /projects                                     194 B         105 kB
+└ ○ /resume                                       194 B         105 kB
++ First Load JS shared by all                    101 kB
+  ├ chunks/4bd1b696-67ee12fb04071d3b.js         53.2 kB
+  ├ chunks/684-2d117c50cbadadca.js                46 kB
+  └ other shared chunks (total)                 1.89 kB
+
+
+○  (Static)  prerendered as static content
+
