@@ -1,6 +1,6 @@
 {
   "name": "stephennaetzker-site",
-  "version": "1.2.25",
+  "version": "1.2.26",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -17,5 +17,10 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19"
+  },
+  "packageManager": "npm@10.8.2",
+  "engines": {
+    "node": "20.x",
+    "npm": "10.x"
   }
 }
