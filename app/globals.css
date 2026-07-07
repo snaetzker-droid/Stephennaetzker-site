@@ -336,9 +336,9 @@
   .sn-hot-nav a:first-child{color:var(--gold2)!important}
   .sn-hot-nav a:hover{color:var(--gold2)!important}
 }
-/* v1.3.0 HOMEPAGE STABILIZATION RELEASE
-   Final desktop CTA authority after debug verification.
-   Removes debug overlay and moves CTA hitboxes down to align with visible artwork buttons. */
+/* v1.3.1 HOMEPAGE STABILIZATION RELEASE
+   Full replacement build from canonical globals.css.
+   Removes CTA debug overlay and lowers verified desktop hitboxes to align with visible artwork buttons. */
 @media(min-width:901px){
   .sn-canonical-text{
     pointer-events:none!important;
@@ -347,7 +347,7 @@
   .sn-canonical-actions{
     position:absolute!important;
     left:7.18vw!important;
-    top:81.7vh!important;
+    top:88.2vh!important;
     right:auto!important;
     bottom:auto!important;
     display:flex!important;
@@ -417,3 +417,4 @@
     background:rgba(245,217,138,.10)!important;
   }
 }
+
