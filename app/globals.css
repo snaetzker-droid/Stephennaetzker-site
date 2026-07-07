@@ -336,9 +336,9 @@
   .sn-hot-nav a:first-child{color:var(--gold2)!important}
   .sn-hot-nav a:hover{color:var(--gold2)!important}
 }
-/* v1.3.2 CTA FINAL NUDGE
-   Full replacement build from v1.3.1.
-   Preserves approved homepage and lowers desktop CTA hitboxes slightly for final alignment. */
+/* v1.3.3 CTA FINAL MICRO-NUDGE
+   Full replacement build from v1.3.2.
+   Preserves approved homepage and lowers desktop CTA hitboxes 10px for final alignment. */
 @media(min-width:901px){
   .sn-canonical-text{
     pointer-events:none!important;
@@ -347,7 +347,7 @@
   .sn-canonical-actions{
     position:absolute!important;
     left:7.18vw!important;
-    top:89.6vh!important;
+    top:calc(89.6vh + 10px)!important;
     right:auto!important;
     bottom:auto!important;
     display:flex!important;
