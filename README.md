@@ -1,7 +1,7 @@
-# StephenNaetzker.com v1.2.19 — Link Children Fix
+StephenNaetzker.com v1.2.27
 
-Patch scope:
-- Replaces self-closing homepage CTA Link components with Link elements containing accessible text children.
-- Keeps the button label text visually hidden because the approved canonical hero image already contains the visible button artwork/text.
-- Preserves the canonical homepage artwork, layout, and essay integration.
-- Keeps both homepage CTAs pointed at `/essays/the-courage-to-follow-the-evidence`.
+Cloudflare build-pipeline hotfix:
+- Keeps Next.js, React, and React DOM in dependencies.
+- Regenerates package-lock.json from the corrected package.json.
+- Changes build script to run dependency install before `next build`, preventing Cloudflare's `next: not found` failure when its automatic install step is unreliable.
+- Preserves homepage/mobile fixes and both essays.

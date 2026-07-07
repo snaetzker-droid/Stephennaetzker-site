@@ -1,10 +1,10 @@
 {
   "name": "stephennaetzker-site",
-  "version": "1.2.26",
+  "version": "1.2.27",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm install --include=dev --no-audit --no-fund --progress=false && next build",
     "start": "next start"
   },
   "dependencies": {
@@ -20,7 +20,7 @@
   },
   "packageManager": "npm@10.8.2",
   "engines": {
-    "node": "20.x",
-    "npm": "10.x"
+    "node": ">=20",
+    "npm": ">=10"
   }
 }

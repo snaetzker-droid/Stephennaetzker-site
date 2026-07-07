@@ -1,7 +1,10 @@
-# StephenNaetzker.com v1.2.26 Cloudflare Dependency Fix
+# StephenNaetzker.com v1.2.27 — Cloudflare Next Executable Fix
 
-Upload the extracted top-level contents to the GitHub repo root.
+Upload the top-level contents of this ZIP to the GitHub repository root.
 
-This release pins Cloudflare to Node 20 / npm 10 to avoid the Cloudflare npm 10.9.2 `Exit handler never called` install failure.
+Cloudflare settings should remain:
+- Build command: `npm run build`
+- Build output directory: `/out`
+- Root directory: `/`
 
-Expected Cloudflare detection should show Node 20.x and npm 10.x before install.
+This release preserves the v1.2.25 mobile/homepage fixes, preserves The Cortana Effect, preserves `natural pursuit`, and repairs the Cloudflare `next: not found` failure by making the build command perform a dependency install before invoking `next build`.
