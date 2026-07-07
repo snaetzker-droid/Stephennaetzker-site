@@ -336,3 +336,30 @@
   .sn-hot-nav a:first-child{color:var(--gold2)!important}
   .sn-hot-nav a:hover{color:var(--gold2)!important}
 }
+/* v1.2.29 CTA CLICK RESTORE */
+@media(min-width:901px){
+  .sn-canonical-text{
+    pointer-events:auto!important;
+  }
+
+  .sn-canonical-actions{
+    z-index:2147483647!important;
+    pointer-events:auto!important;
+  }
+
+  .sn-hot-button,
+  .sn-hot-button-label{
+    pointer-events:auto!important;
+  }
+
+  .sn-hot-primary{
+    width:18.1vw!important;
+    min-width:230px!important;
+  }
+
+  .sn-hot-secondary{
+    display:inline-flex!important;
+    width:16vw!important;
+    min-width:190px!important;
+  }
+}
