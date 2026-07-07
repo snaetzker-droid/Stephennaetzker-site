@@ -417,3 +417,11 @@
     background:rgba(245,217,138,.10)!important;
   }
 }
+
+/* TEMP DEBUG: show desktop CTA hitboxes */
+@media(min-width:901px){
+  .sn-hot-button{
+    background:rgba(255,0,0,.22)!important;
+    border:2px solid red!important;
+  }
+}
