@@ -343,11 +343,17 @@
   }
 
   .sn-canonical-actions{
-  left:6.05vw!important;
-  top:75.0vh!important;
+  position:absolute!important;
+  left:7.18vw!important;
+  top:75.2vh!important;
+  right:auto!important;
+  bottom:auto!important;
+  display:flex!important;
+  align-items:center!important;
+  gap:1.12vw!important;
   z-index:2147483647!important;
   pointer-events:auto!important;
-  }
+}
 
   .sn-hot-button,
   .sn-hot-button-label{
