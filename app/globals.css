@@ -343,8 +343,10 @@
   }
 
   .sn-canonical-actions{
-    z-index:2147483647!important;
-    pointer-events:auto!important;
+  left:6.05vw!important;
+  top:75.0vh!important;
+  z-index:2147483647!important;
+  pointer-events:auto!important;
   }
 
   .sn-hot-button,
