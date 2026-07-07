@@ -336,9 +336,9 @@
   .sn-hot-nav a:first-child{color:var(--gold2)!important}
   .sn-hot-nav a:hover{color:var(--gold2)!important}
 }
-/* v1.2.30 DESKTOP CTA AUTHORITATIVE FIX
-   Single final desktop authority for CTA click targets.
-   Restores original artwork-aligned position, size, spacing, and clickability. */
+/* v1.3.0 HOMEPAGE STABILIZATION RELEASE
+   Final desktop CTA authority after debug verification.
+   Removes debug overlay and moves CTA hitboxes down to align with visible artwork buttons. */
 @media(min-width:901px){
   .sn-canonical-text{
     pointer-events:none!important;
@@ -347,7 +347,7 @@
   .sn-canonical-actions{
     position:absolute!important;
     left:7.18vw!important;
-    top:75.2vh!important;
+    top:81.7vh!important;
     right:auto!important;
     bottom:auto!important;
     display:flex!important;
@@ -415,13 +415,5 @@
     outline:3px solid var(--gold2)!important;
     outline-offset:4px!important;
     background:rgba(245,217,138,.10)!important;
-  }
-}
-
-/* TEMP DEBUG: show desktop CTA hitboxes */
-@media(min-width:901px){
-  .sn-hot-button{
-    background:rgba(255,0,0,.22)!important;
-    border:2px solid red!important;
   }
 }
