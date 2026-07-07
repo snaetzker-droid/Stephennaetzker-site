@@ -203,8 +203,6 @@
   .sn-hot-secondary{display:inline-flex!important}
   .sn-hot-nav{font-size:.52rem!important;gap:.48rem!important;border-radius:18px;line-height:1.1}
 }
-
-
 /* v1.2.25 MOBILE HERO FIT RELEASE
    Preserve the approved desktop cinematic hero, but use a true portrait mobile composition.
    Desktop: the canonical artwork remains the visual source; real links sit as transparent hit areas.
@@ -418,72 +416,54 @@
   }
 }
 
-/* v1.3.6 MOBILE HERO POLISH
-   Mobile-only refinement. Desktop homepage remains locked.
-   Reduces headline dominance so Chloe's face and gesture lead the mobile experience. */
+/* v1.3.7 MOBILE HERO TEXT POLISH
+   Mobile-only refinement. Desktop remains locked.
+   Reduces text dominance so the Chloe artwork carries the first impression. */
 @media(max-width:900px){
   .sn-canonical-hero{
-    padding-top:7.25rem!important;
-    padding-left:4.5vw!important;
-    padding-right:4.5vw!important;
-    padding-bottom:2.25rem!important;
+    padding:6.15rem 4.75vw 1.35rem!important;
     align-items:flex-end!important;
   }
 
-  .sn-mobile-hero-img{
-    object-position:58% center!important;
-  }
-
   .sn-canonical-text{
-    max-width:32rem!important;
+    max-width:30rem!important;
   }
 
   .sn-home-kicker{
-    margin-bottom:.65rem!important;
-    font-size:.62rem!important;
-    letter-spacing:.18em!important;
+    font-size:.58rem!important;
+    letter-spacing:.17em!important;
+    margin-bottom:.48rem!important;
   }
 
   .sn-canonical-text h1{
-    font-size:clamp(2.35rem,12.8vw,4.35rem)!important;
-    line-height:.91!important;
-    max-width:8.6ch!important;
-    margin-bottom:.85rem!important;
+    font-size:clamp(2.15rem,11.5vw,4.05rem)!important;
+    line-height:.96!important;
+    max-width:10ch!important;
+    margin-bottom:.62rem!important;
   }
 
   .sn-home-subtitle{
-    max-width:25rem!important;
-    font-size:clamp(.94rem,3.55vw,1.02rem)!important;
-    line-height:1.45!important;
-    margin-bottom:1.2rem!important;
-  }
-
-  .sn-canonical-actions{
-    gap:.7rem!important;
+    max-width:24rem!important;
+    font-size:.88rem!important;
+    line-height:1.36!important;
+    margin-bottom:.88rem!important;
   }
 }
 
 @media(max-width:420px){
   .sn-canonical-hero{
-    padding-top:7.45rem!important;
-    padding-left:4.25vw!important;
-    padding-right:4.25vw!important;
-    padding-bottom:1.55rem!important;
-  }
-
-  .sn-mobile-hero-img{
-    object-position:59% center!important;
+    padding-top:6.45rem!important;
+    padding-bottom:1.05rem!important;
   }
 
   .sn-canonical-text h1{
-    font-size:clamp(2.2rem,12.4vw,3.8rem)!important;
-    line-height:.92!important;
-    max-width:8.7ch!important;
+    font-size:clamp(2.05rem,11.8vw,3.45rem)!important;
+    line-height:.97!important;
   }
 
   .sn-home-subtitle{
-    font-size:.91rem!important;
-    line-height:1.42!important;
-    max-width:23rem!important;
+    font-size:.84rem!important;
+    line-height:1.34!important;
+    margin-bottom:.78rem!important;
   }
 }
