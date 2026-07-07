@@ -35,12 +35,19 @@
 /* v1.2.18 VERIFIED FIX: actual visible button hitboxes receive clicks.
    Removes the full-hero overlay workaround and restores pointer events to the existing CTA layer. */
 .sn-canonical-actions{
-  pointer-events:auto!important;
-  z-index:2147483646!important;
+    display:flex;
+    align-items:center;
+    gap:20px;
 }
+
 .sn-hot-button{
-  pointer-events:auto!important;
-  cursor:pointer!important;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    height:56px;
+    min-height:56px;
+    line-height:1;
 }
 .sn-hot-nav{
   z-index:2147483647!important;
