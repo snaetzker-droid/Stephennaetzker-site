@@ -257,3 +257,27 @@
   .sn-home-subtitle{font-size:.94rem!important;line-height:1.42!important}
   .sn-home-kicker{font-size:.62rem!important;letter-spacing:.17em!important}
 }
+
+
+/* v1.2.28 NAV RESTORE + CLOUDFLARE LOCKFILE FIX
+   Restores a visible desktop navigation bar after the mobile hero fit release.
+   Keeps the approved cinematic hero and preserves mobile responsive behavior. */
+@media(min-width:901px){
+  .sn-hot-nav{
+    color:rgba(255,255,255,.96)!important;
+    text-shadow:0 2px 12px rgba(0,0,0,.65)!important;
+    background:rgba(3,7,18,.22)!important;
+    border:1px solid rgba(216,170,82,.18)!important;
+    border-radius:999px!important;
+    padding:.35rem .8rem!important;
+    backdrop-filter:blur(10px)!important;
+  }
+  .sn-hot-nav a{
+    color:rgba(255,255,255,.96)!important;
+    text-shadow:0 2px 12px rgba(0,0,0,.65)!important;
+    min-width:auto!important;
+    padding:.55rem .28rem!important;
+  }
+  .sn-hot-nav a:first-child{color:var(--gold2)!important}
+  .sn-hot-nav a:hover{color:var(--gold2)!important}
+}
