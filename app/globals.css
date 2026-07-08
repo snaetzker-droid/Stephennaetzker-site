@@ -837,9 +837,9 @@ dex:5;left:7.18vw;top:75.2vh;display:flex;gap:1.12vw}.sn-hot-button{display:bloc
   }
 }
 @media (max-width: 700px) {
-  .hero h1 {
-    font-size: clamp(3.2rem, 13vw, 5rem) !important;
-    line-height: 0.88 !important;
-    letter-spacing: -0.05em !important;
+  .sn-canonical-text h1 {
+    font-size: clamp(2.2rem, 10vw, 3.4rem) !important;
+    line-height: .88 !important;
+    letter-spacing: -.03em !important;
   }
 }
