@@ -846,3 +846,27 @@ dex:5;left:7.18vw;top:75.2vh;display:flex;gap:1.12vw}.sn-hot-button{display:bloc
     max-width: 9.8ch !important;
   }
 }
+/* v1.2.30 MOBILE HERO FINAL COMPOSITION LOCK */
+@media (max-width: 900px) {
+  .sn-canonical-text {
+    transform: translateY(1.25rem) !important;
+  }
+
+  .sn-canonical-text h1 {
+    font-size: clamp(1.95rem, 8.6vw, 2.85rem) !important;
+    line-height: .92 !important;
+    max-width: 12ch !important;
+    margin-bottom: .7rem !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .sn-canonical-text {
+    transform: translateY(1.5rem) !important;
+  }
+
+  .sn-canonical-text h1 {
+    font-size: clamp(1.8rem, 8.2vw, 2.65rem) !important;
+    max-width: 12ch !important;
+  }
+}
