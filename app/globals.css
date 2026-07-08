@@ -1101,4 +1101,7 @@ dex:5;left:7.18vw;top:75.2vh;display:flex;gap:1.12vw}.sn-hot-button{display:bloc
     font-size: .92rem;
   }
 }
-
+/* v1.3.1 ESSAYS HERO TEXT OVERLAP FIX */
+.sn-essays-hero-copy {
+  display: none !important;
+}
