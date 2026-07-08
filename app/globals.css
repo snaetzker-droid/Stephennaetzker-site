@@ -912,12 +912,6 @@ dex:5;left:7.18vw;top:75.2vh;display:flex;gap:1.12vw}.sn-hot-button{display:bloc
     linear-gradient(90deg, rgba(2, 8, 18, .45) 0%, rgba(2, 8, 18, .25) 28%, rgba(2, 8, 18, .08) 58%, rgba(2, 8, 18, .00) 100%),
     linear-gradient(180deg, rgba(2, 8, 18, .10) 0%, rgba(2, 8, 18, .18) 70%, #020812 100%);
 }
-
-.sn-essays-hero-copy {
-  position: relative;
-  z-index: 3;
-  width: min(680px, 46vw);
-  padding: 9.5rem 0 6rem 6vw;
 }
 
 .sn-essays-kicker {
