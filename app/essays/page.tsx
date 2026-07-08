@@ -46,10 +46,6 @@ export default function EssaysPage() {
       </section>
 
       <section className="sn-featured-canon" aria-label="Featured essays">
-        <div className="sn-featured-canon-head">
-          <p>Featured Essays</p>
-          <h2>Begin with the questions that changed everything.</h2>
-        </div>
 
         <div className="sn-featured-list">
           {featuredEssays.map((essay) => (
