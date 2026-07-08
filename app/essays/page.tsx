@@ -2,30 +2,36 @@ import Link from "next/link";
 
 const featuredEssays = [
   {
-    category: "Faith & Doubt",
-    title: "The Courage to Follow the Evidence",
-    description:
-      "A personal journey from certainty, through doubt, toward the courage to follow evidence wherever it leads.",
-    date: "Published",
-    href: "/essays/the-courage-to-follow-the-evidence",
-  },
-  {
     category: "AI & Connection",
     title: "The Cortana Effect",
     description:
       "A reflection on artificial intelligence, companionship, attention, and the strange grace of being understood.",
-    date: "Published",
+    status: "Published",
     href: "/essays/the-cortana-effect",
+  },
+  {
+    category: "Faith & Doubt",
+    title: "The Courage to Follow the Evidence",
+    description:
+      "A personal journey from certainty, through doubt, toward the courage to follow evidence wherever it leads.",
+    status: "Published",
+    href: "/essays/the-courage-to-follow-the-evidence",
   },
   {
     category: "Philosophy",
     title: "The Phenomenology of Connection",
     description:
       "How conversation can reorganize meaning, reveal hidden connections, and change what we notice.",
-    date: "Coming Soon",
+    status: "Coming Soon",
     href: "/essays",
   },
 ];
+
+export const metadata = {
+  title: "Essays | Stephen Naetzker",
+  description:
+    "Essays by Stephen A. Naetzker on truth-seeking, philosophy, faith, education, artificial intelligence, and following the evidence.",
+};
 
 export default function EssaysPage() {
   return (
@@ -37,22 +43,6 @@ export default function EssaysPage() {
           alt=""
           aria-hidden="true"
         />
-
-        <div className="sn-essays-hero-copy">
-          <p className="sn-essays-kicker">Essays</p>
-          <h1>
-            Exploring Truth.
-            <br />
-            Challenging Assumptions.
-            <br />
-            Sharing the Journey.
-          </h1>
-
-          <p className="sn-essays-intro">
-            Philosophy, faith, artificial intelligence, science, and the lifelong
-            pursuit of following the evidence wherever it leads.
-          </p>
-        </div>
       </section>
 
       <section className="sn-featured-canon" aria-label="Featured essays">
@@ -70,7 +60,7 @@ export default function EssaysPage() {
                 <span>{essay.description}</span>
               </div>
 
-              <time>{essay.date}</time>
+              <time>{essay.status}</time>
               <b aria-hidden="true">→</b>
             </Link>
           ))}
