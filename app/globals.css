@@ -843,3 +843,25 @@ dex:5;left:7.18vw;top:75.2vh;display:flex;gap:1.12vw}.sn-hot-button{display:bloc
     max-width:11ch!important;
   }
 }
+/* v1.2.29 MOBILE HOMEPAGE CANON LOCK */
+@media (max-width: 900px) {
+  .sn-canonical-hero {
+    align-items: flex-end !important;
+    padding: 6.35rem 4.75vw 2.25rem !important;
+  }
+
+  .sn-mobile-hero-img {
+    object-position: 52% center !important;
+  }
+
+  .sn-canonical-text {
+    max-width: 34rem !important;
+    margin: 0 auto !important;
+  }
+
+  .sn-canonical-text h1 {
+    font-size: clamp(2.45rem, 10.8vw, 4.05rem) !important;
+    line-height: .9 !important;
+    max-width: 10.5ch !important;
+  }
+}
