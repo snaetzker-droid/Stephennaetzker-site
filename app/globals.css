@@ -870,3 +870,235 @@ dex:5;left:7.18vw;top:75.2vh;display:flex;gap:1.12vw}.sn-hot-button{display:bloc
     max-width: 12ch !important;
   }
 }
+/* StephenNaetzker.com v1.3.0 ESSAYS PAGE CANON
+   Append to the VERY BOTTOM of app/globals.css.
+   Uses public/essays-hero-canon.png.
+   Does not touch the Home hero. */
+
+.sn-essays-canon {
+  min-height: 100vh;
+  background: #020812;
+  color: #f8f1e6;
+  overflow-x: hidden;
+}
+
+.sn-essays-hero {
+  position: relative;
+  min-height: 74vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: #020812;
+  border-bottom: 1px solid rgba(216, 170, 82, .18);
+}
+
+.sn-essays-hero-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  z-index: 0;
+}
+
+.sn-essays-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(2, 8, 18, .95) 0%, rgba(2, 8, 18, .82) 28%, rgba(2, 8, 18, .28) 58%, rgba(2, 8, 18, .08) 100%),
+    linear-gradient(180deg, rgba(2, 8, 18, .10) 0%, rgba(2, 8, 18, .18) 70%, #020812 100%);
+}
+
+.sn-essays-hero-copy {
+  position: relative;
+  z-index: 3;
+  width: min(680px, 46vw);
+  padding: 9.5rem 0 6rem 6vw;
+}
+
+.sn-essays-kicker {
+  margin: 0 0 1.05rem;
+  color: var(--gold2, #f5d98a);
+  font: 800 .78rem Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .28em;
+}
+
+.sn-essays-hero h1 {
+  margin: 0;
+  color: #fff2da;
+  font-size: clamp(2.75rem, 4.3vw, 5.25rem);
+  line-height: 1.12;
+  font-weight: 500;
+  letter-spacing: .01em;
+  text-shadow: 0 18px 54px rgba(0, 0, 0, .72);
+}
+
+.sn-essays-intro {
+  max-width: 560px;
+  margin: 1.65rem 0 0;
+  color: #e6dac8;
+  font-size: clamp(1.02rem, 1.24vw, 1.22rem);
+  line-height: 1.62;
+  text-shadow: 0 10px 32px rgba(0, 0, 0, .68);
+}
+
+.sn-featured-canon {
+  position: relative;
+  z-index: 5;
+  width: min(92vw, 1320px);
+  margin: -2.35rem auto 5rem;
+  padding: 2rem clamp(1.2rem, 3vw, 2.4rem) 2.35rem;
+  background: linear-gradient(180deg, rgba(5, 20, 37, .92), rgba(3, 12, 24, .94));
+  border: 1px solid rgba(216, 170, 82, .24);
+  box-shadow: 0 34px 100px rgba(0, 0, 0, .46);
+  backdrop-filter: blur(10px);
+}
+
+.sn-featured-canon-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: end;
+  padding-bottom: 1.15rem;
+}
+
+.sn-featured-canon-head p {
+  margin: 0;
+  color: var(--gold2, #f5d98a);
+  font: 800 .75rem Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .24em;
+}
+
+.sn-featured-canon-head h2 {
+  max-width: 620px;
+  margin: 0;
+  color: #fff2da;
+  font-size: clamp(1.45rem, 2.4vw, 2.5rem);
+  line-height: 1.05;
+  font-weight: 500;
+  text-align: right;
+}
+
+.sn-featured-list {
+  display: grid;
+}
+
+.sn-featured-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 160px 34px;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.25rem 0;
+  border-top: 1px solid rgba(216, 170, 82, .16);
+}
+
+.sn-featured-copy p {
+  margin: 0 0 .55rem;
+  color: var(--gold2, #f5d98a);
+  font: 800 .68rem Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .18em;
+}
+
+.sn-featured-copy h3 {
+  margin: 0 0 .42rem;
+  color: #fff2da;
+  font-size: clamp(1.45rem, 2.3vw, 2.15rem);
+  line-height: 1.08;
+  font-weight: 500;
+}
+
+.sn-featured-copy span {
+  color: #d7cabb;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.sn-featured-row time {
+  color: #b8ac9d;
+  font: 800 .72rem Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .16em;
+  text-align: right;
+}
+
+.sn-featured-row b {
+  color: var(--gold2, #f5d98a);
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+
+.sn-featured-row:hover h3,
+.sn-featured-row:hover b {
+  color: #f5d98a;
+}
+
+@media (max-width: 900px) {
+  .sn-essays-hero {
+    min-height: 78vh;
+    align-items: flex-end;
+  }
+
+  .sn-essays-hero-img {
+    object-position: 58% center;
+  }
+
+  .sn-essays-hero::before {
+    background:
+      linear-gradient(180deg, rgba(2,8,18,.10) 0%, rgba(2,8,18,.18) 35%, rgba(2,8,18,.76) 78%, #020812 100%);
+  }
+
+  .sn-essays-hero-copy {
+    width: 100%;
+    padding: 0 5vw 3rem;
+  }
+
+  .sn-essays-hero h1 {
+    font-size: clamp(2.1rem, 8.8vw, 3.45rem);
+    line-height: 1.08;
+  }
+
+  .sn-essays-intro {
+    font-size: .98rem;
+    line-height: 1.5;
+  }
+
+  .sn-featured-canon {
+    width: 91vw;
+    margin: 0 auto 3rem;
+    padding: 1.35rem;
+  }
+
+  .sn-featured-canon-head {
+    display: block;
+  }
+
+  .sn-featured-canon-head h2 {
+    margin-top: .65rem;
+    text-align: left;
+  }
+
+  .sn-featured-row {
+    grid-template-columns: 1fr 28px;
+    gap: 1rem;
+  }
+
+  .sn-featured-row time {
+    display: none;
+  }
+
+  .sn-featured-copy h3 {
+    font-size: 1.22rem;
+  }
+
+  .sn-featured-copy span {
+    font-size: .92rem;
+  }
+}
+Add essays page styling
