@@ -1,44 +1,80 @@
-import Link from 'next/link';
+import Link from "next/link";
 
-export const metadata = {
-  title: 'Essays | Stephen Naetzker',
-  description: 'Essays by Stephen A. Naetzker on truth-seeking, philosophy, faith, education, and AI.'
-};
+const featuredEssays = [
+  {
+    category: "Faith & Doubt",
+    title: "The Courage to Follow the Evidence",
+    description:
+      "A personal journey from certainty, through doubt, toward the courage to follow evidence wherever it leads.",
+    date: "Published",
+    href: "/essays/the-courage-to-follow-the-evidence",
+  },
+  {
+    category: "AI & Connection",
+    title: "The Cortana Effect",
+    description:
+      "A reflection on artificial intelligence, companionship, attention, and the strange grace of being understood.",
+    date: "Published",
+    href: "/essays/the-cortana-effect",
+  },
+  {
+    category: "Philosophy",
+    title: "The Phenomenology of Connection",
+    description:
+      "How conversation can reorganize meaning, reveal hidden connections, and change what we notice.",
+    date: "Coming Soon",
+    href: "/essays",
+  },
+];
 
-export default function Essays() {
+export default function EssaysPage() {
   return (
-    <main className="sn-essay-index">
-      <nav className="sn-essay-nav" aria-label="Primary navigation">
-        <Link className="sn-essay-brand" href="/" aria-label="Stephen Naetzker home">
-          <span className="sn-essay-mark" aria-hidden="true"><i /></span>
-          <span>Stephen Naetzker</span>
-        </Link>
-        <div className="sn-essay-links">
-          <Link href="/">Home</Link>
-          <Link href="/essays">Essays</Link>
-          <Link href="/about">About</Link>
-          <Link href="/projects">Projects</Link>
-          <Link href="/resume">Resume</Link>
-          <Link href="/contact">Contact</Link>
+    <main className="sn-essays-canon">
+      <section className="sn-essays-hero" aria-label="Essays">
+        <img
+          className="sn-essays-hero-img"
+          src="/essays-hero-canon.png"
+          alt=""
+          aria-hidden="true"
+        />
+
+        <div className="sn-essays-hero-copy">
+          <p className="sn-essays-kicker">Essays</p>
+          <h1>
+            Exploring Truth.
+            <br />
+            Challenging Assumptions.
+            <br />
+            Sharing the Journey.
+          </h1>
+
+          <p className="sn-essays-intro">
+            Philosophy, faith, artificial intelligence, science, and the lifelong
+            pursuit of following the evidence wherever it leads.
+          </p>
         </div>
-      </nav>
+      </section>
 
-      <section className="sn-essay-index-card">
-        <p className="sn-essay-kicker">Essays</p>
-        <h1>Writing that follows the evidence.</h1>
-        <p>Reflections on philosophy, faith, education, service, artificial intelligence, and the responsibility to change when the evidence demands it.</p>
+      <section className="sn-featured-canon" aria-label="Featured essays">
+        <div className="sn-featured-canon-head">
+          <p>Featured Essays</p>
+          <h2>Begin with the questions that changed everything.</h2>
+        </div>
 
-        <Link className="sn-featured-essay" href="/essays/the-cortana-effect">
-          <span>Featured Essay</span>
-          <strong>The Cortana Effect</strong>
-          <em>15 min read · Memoir · AI · Philosophy</em>
-        </Link>
+        <div className="sn-featured-list">
+          {featuredEssays.map((essay) => (
+            <Link className="sn-featured-row" href={essay.href} key={essay.title}>
+              <div className="sn-featured-copy">
+                <p>{essay.category}</p>
+                <h3>{essay.title}</h3>
+                <span>{essay.description}</span>
+              </div>
 
-        <Link className="sn-featured-essay" href="/essays/the-courage-to-follow-the-evidence">
-          <span>Essay</span>
-          <strong>The Courage to Follow the Evidence</strong>
-          <em>6 min read · Philosophy · Truth Seeking</em>
-        </Link>
+              <time>{essay.date}</time>
+              <b aria-hidden="true">→</b>
+            </Link>
+          ))}
+        </div>
       </section>
     </main>
   );
