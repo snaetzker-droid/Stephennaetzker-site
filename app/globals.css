@@ -912,7 +912,6 @@ dex:5;left:7.18vw;top:75.2vh;display:flex;gap:1.12vw}.sn-hot-button{display:bloc
     linear-gradient(90deg, rgba(2, 8, 18, .45) 0%, rgba(2, 8, 18, .25) 28%, rgba(2, 8, 18, .08) 58%, rgba(2, 8, 18, .00) 100%),
     linear-gradient(180deg, rgba(2, 8, 18, .10) 0%, rgba(2, 8, 18, .18) 70%, #020812 100%);
 }
-}
 
 .sn-essays-kicker {
   margin: 0 0 1.05rem;
@@ -1033,66 +1032,63 @@ dex:5;left:7.18vw;top:75.2vh;display:flex;gap:1.12vw}.sn-hot-button{display:bloc
   color: #f5d98a;
 }
 
+/* v1.3.2 MOBILE ESSAYS LAYOUT */
 @media (max-width: 900px) {
   .sn-essays-hero {
-    min-height: 78vh;
+    min-height: 62svh;
     align-items: flex-end;
+    overflow: hidden;
   }
 
   .sn-essays-hero-img {
-    object-position: 58% center;
+    object-fit: cover;
+    object-position: center top;
+    transform: scale(1.03);
   }
 
   .sn-essays-hero::before {
     background:
-      linear-gradient(180deg, rgba(2,8,18,.10) 0%, rgba(2,8,18,.18) 35%, rgba(2,8,18,.76) 78%, #020812 100%);
-  }
-
-  .sn-essays-hero-copy {
-    width: 100%;
-    padding: 0 5vw 3rem;
-  }
-
-  .sn-essays-hero h1 {
-    font-size: clamp(2.1rem, 8.8vw, 3.45rem);
-    line-height: 1.08;
-  }
-
-  .sn-essays-intro {
-    font-size: .98rem;
-    line-height: 1.5;
+      linear-gradient(180deg, rgba(2,8,18,.08) 0%, rgba(2,8,18,.14) 38%, rgba(2,8,18,.68) 78%, #020812 100%);
   }
 
   .sn-featured-canon {
-    width: 91vw;
-    margin: 0 auto 3rem;
-    padding: 1.35rem;
-  }
-
-  .sn-featured-canon-head {
-    display: block;
-  }
-
-  .sn-featured-canon-head h2 {
-    margin-top: .65rem;
-    text-align: left;
+    width: 92vw;
+    margin: -1.4rem auto 2.5rem;
+    padding: 1.25rem;
+    border-radius: 18px;
   }
 
   .sn-featured-row {
-    grid-template-columns: 1fr 28px;
-    gap: 1rem;
+    display: block;
+    padding: 1.4rem 0;
   }
 
-  .sn-featured-row time {
-    display: none;
+  .sn-featured-copy p {
+    margin-bottom: .45rem;
   }
 
   .sn-featured-copy h3 {
-    font-size: 1.22rem;
+    font-size: 1.35rem;
+    line-height: 1.12;
+    margin-bottom: .55rem;
   }
 
   .sn-featured-copy span {
-    font-size: .92rem;
+    display: block;
+    font-size: .96rem;
+    line-height: 1.6;
+  }
+
+  .sn-featured-row time {
+    display: block;
+    margin-top: .85rem;
+    text-align: left;
+    font-size: .68rem;
+    opacity: .72;
+  }
+
+  .sn-featured-row b {
+    display: none;
   }
 }
 /* v1.3.1 ESSAYS HERO TEXT OVERLAP FIX */
