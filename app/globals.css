@@ -1095,3 +1095,22 @@ dex:5;left:7.18vw;top:75.2vh;display:flex;gap:1.12vw}.sn-hot-button{display:bloc
 .sn-essays-hero-copy {
   display: none !important;
 }
+
+/* StephenNaetzker.com v1.3.3 ESSAYS DESKTOP HERO CROP
+   Desktop only. Removes the legacy Featured Essays artwork baked into the hero image
+   while preserving the visible headline, cinematic composition, and mobile layout. */
+@media (min-width: 901px) {
+  .sn-essays-hero {
+    min-height: clamp(390px, 43vh, 500px);
+    height: clamp(390px, 43vh, 500px);
+  }
+
+  .sn-essays-hero-img {
+    object-position: center top;
+  }
+
+  .sn-featured-canon {
+    margin-top: -1.6rem;
+  }
+}
+
