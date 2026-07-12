@@ -1114,3 +1114,23 @@ dex:5;left:7.18vw;top:75.2vh;display:flex;gap:1.12vw}.sn-hot-button{display:bloc
   }
 }
 
+/* StephenNaetzker.com v1.3.5 ESSAYS DESKTOP COMPOSITION REBALANCE
+   Restores more of the cinematic hero while keeping the legacy baked-in
+   Featured Essays artwork cropped out. Mobile remains untouched. */
+@media (min-width: 901px) {
+  .sn-essays-hero {
+    min-height: clamp(520px, 56vh, 650px);
+    height: clamp(520px, 56vh, 650px);
+  }
+
+  .sn-essays-hero-img {
+    object-position: center top;
+    transform: scale(1.16);
+    transform-origin: center top;
+  }
+
+  .sn-featured-canon {
+    margin-top: -1rem;
+  }
+}
+
